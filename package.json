@@ -1,7 +1,7 @@
 {
   "name": "x-state",
   "version": "1.0.0",
-  "description": "core reactivity rovided by events",
+  "description": "core reactivity provided by events",
   "main": "state.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,5 +23,13 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "x-eventable": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tom-Siegel/state.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tom-Siegel/state/issues"
+  },
+  "homepage": "https://github.com/Tom-Siegel/state#readme"
 }
