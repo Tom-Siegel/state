@@ -25,7 +25,7 @@ listener.raise("work");
 ### Javascript
 
 ```html
-<script src="eventable.js" />
+<script src="eventable.browser.js" />
 ```
 
 ---

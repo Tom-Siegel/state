@@ -3,5 +3,5 @@
 ## Installation
 
 ```
-npm install x-state
+npm install x-stateable
 ```
