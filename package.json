@@ -1,6 +1,6 @@
 {
   "name": "x-stateable",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "core reactivity provided by events",
   "main": "state.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "devDependencies": {
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
-    "x-eventable": "^1.1.1"
+    "x-eventable": "^1.2.0"
   },
   "repository": {
     "type": "git",

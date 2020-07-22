@@ -3,7 +3,7 @@
 ## Install
 
 ```
-npm install eventable
+npm install x-eventable
 ```
 
 ## Usage
