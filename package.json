@@ -5,7 +5,7 @@
   "main": "state.js",
   "scripts": {
     "test": "node test/all.test.js",
-    "build": "browserify state.js -o state.browser.js"
+    "build": "browserify state.js -o dist/state.browser.js"
   },
   "keywords": [
     "state",
