@@ -5,7 +5,7 @@
   "main": "state.js",
   "scripts": {
     "test": "node test/all.test.js",
-    "build": "browserify state.js -o  dist/state.js && uglifyjs dist/state.js"
+    "build": "babel state.js -d dist/state.js && browserify state.js -o  dist/state.js && uglifyjs dist/state.js"
   },
   "keywords": [
     "state",
@@ -20,6 +20,8 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "x-eventable": "^1.2.0"
